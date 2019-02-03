@@ -8,9 +8,9 @@ function playerSelection(){
   let trynumber = 0;
   do{
     if(trynumber > 0){
-      choice = prompt(`please enter a VALID choice number tries: ${trynumber}`)
+      choice = prompt(`please enter a VALID choice (Rock, Paper, Scissors) number tries: ${trynumber}`)
     } else{
-      choice = prompt("please enter your choice").toLowerCase();
+      choice = prompt("✊✋✌️ Choose one by typing Rock, Paper or Scissors!").toLowerCase();
     }
 
     trynumber++;
